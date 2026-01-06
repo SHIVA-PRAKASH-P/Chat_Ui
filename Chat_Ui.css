@@ -1,0 +1,90 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #e5ddd5;
+}
+
+/* Chat container */
+.chat-box {
+    width: 320px;
+    height: 450px;
+    background-color: #ffffff;
+    margin: 40px auto;
+    display: flex;
+    flex-direction: column;
+    border-radius: 6px;
+    box-shadow: 0 0 8px rgba(0,0,0,0.2);
+}
+
+/* Header */
+.chat-header {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background-color: #075e54;
+    color: white;
+}
+
+/* Empty DP */
+.dp {
+    width: 35px;
+    height: 35px;
+    background-color: #cccccc; /* empty DP */
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.username {
+    font-weight: bold;
+}
+
+/* Chat body */
+.chat-body {
+    flex: 1;
+    padding: 10px;
+    background-color: #efeae2;
+}
+
+/* Messages */
+.message {
+    max-width: 75%;
+    padding: 8px 10px;
+    margin-bottom: 8px;
+    border-radius: 6px;
+    font-size: 14px;
+}
+
+/* Received */
+.received {
+    background-color: #ffffff;
+}
+
+/* Sent */
+.sent {
+    background-color: #dcf8c6;
+    margin-left: auto;
+}
+
+/* Input */
+.chat-input {
+    display: flex;
+    padding: 8px;
+    border-top: 1px solid #ccc;
+}
+
+.chat-input input {
+    flex: 1;
+    padding: 6px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.chat-input button {
+    margin-left: 6px;
+    padding: 6px 12px;
+    border: none;
+    background-color: #075e54;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+}
